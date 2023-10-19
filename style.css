@@ -4,7 +4,7 @@ form{
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    width: 120%;
+    width: 150%;
 }
 
 .form-group{
@@ -16,6 +16,7 @@ height: 10%;
 th{
     border: 1px solid;
 padding: 25px;
+border-collapse: collapse;
 
 }
 
@@ -24,3 +25,10 @@ table{
     border: 2px solid;
 }
 
+.foodItems .form-check-label{
+
+height:100px;
+width: 100px;
+transform: scale(6.5);
+
+}
