@@ -3,8 +3,30 @@ form{
     background-color: antiquewhite;
     border-radius: 20px;
     margin-top: 50px;
+    margin-left: -20%;
     margin-bottom: 50px;
     width: 150%;
+    position: relative;
+}
+table{
+    position: absolute;
+    margin-left: -16%;
+}
+
+#food{
+    height: 12px;
+    width: 12px;
+    margin-top: 10px;
+
+}
+
+#male{
+transform: scale(1.2);
+margin-top: 10px;
+}
+
+#female{
+    transform: scale(1.2);
 }
 
 .form-group{
@@ -14,21 +36,20 @@ height: 10%;
 }
 
 th{
-    border: 1px solid;
+border: 1px solid;
 padding: 25px;
 border-collapse: collapse;
 
 }
 
-table{
-    margin-top: 5%;
-    border: 2px solid;
+
+td{
+    padding-left: 12px;
+    border:1px solid;
 }
 
 .foodItems .form-check-label{
 
 height:100px;
 width: 100px;
-transform: scale(6.5);
-
 }
